@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%;
@@ -15,6 +14,22 @@
   html {
     font-size: 87.5%;
   }
+}
+
+@font-face {
+  font-family: "GT Eesti Pro Display";
+  src: url("/fonts/GT-Eesti-Display-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Eesti Pro Display";
+  src: url("/fonts/GT-Eesti-Display-Medium.otf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
 }
 
 :root {
@@ -30,7 +45,7 @@ body {
 
 body, button, textarea, input {
   color: var(--primary);
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem "GT Eesti Pro Display", sans-serif;
 }
 
 a {
